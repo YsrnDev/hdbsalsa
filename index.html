@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Salsasabila</title>
+    <link rel="shortcut icon" href="src/img/heart.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.css"
+        integrity="sha512-Go0fX6Al6Eab+N7QbSFHYBpwdcU2rbfONUcbRIS4z+9yzLlj7Xj8ao2BAOPE9Qtxdl+7iq04xzzcF4OTOWoUWg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        .fp-watermark {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <audio class="audio" hidden autoplay loop>
+        <source src="src/audio/selamat ulang tahun.mp3" type="audio/mpeg">
+        Tidak mendukung audio
+    </audio>
+    <!-- <div class="open bg-pink-500/20 border-2 border-slate-900 shadow-xl absolute z-10 self-center">
+        <div class="card flex flex-col justify-center items-center p-5  max-w-xs">
+            <h2>Ada pesan buat kamu</h2>
+            <img onclick="mulai()" src="https://i.postimg.cc/7ZH3t5dL/mail.png" alt="" srcset="" />
+            <h3>Tekan untuk membuka</h3>
+        </div>
+    </div> -->
+    <div id="fullpage">
+        <div class="section active bg-gradient-to-b from-pink-200 to-pink-700">
+            <div
+                class="border-2 border-slate-900 mx-auto max-w-xs md:mx-auto md:max-w-md rounded-xl p-8 bg-slate-100 shadow-xl">
+                <h1 class="text-4xl font-semibold text-center">Hai ❤</h1>
+            </div>
+            <a href="#section2" class="absolute z-10 bottom-5 self-center animate-bounce">
+                <div class="bg-slate-100/20 p-2 text-xl rounded-full border-2 border-slate-100/20">
+                    👇
+                </div>
+            </a>
+        </div>
+        <div class="section bg-gradient-to-b from-pink-200 to-pink-700">
+            <div class="border-2 border-slate-900 mx-10 md:mx-auto md:max-w-md  rounded-xl p-8 bg-slate-100 shadow-xl">
+                <h1 class="text-4xl font-semibold text-center">Iya kamu</h1>
+            </div>
+        </div>
+        <div class="section bg-gradient-to-b from-pink-200 to-pink-700">
+            <div class="border-2 border-slate-900 mx-10 md:mx-auto md:max-w-md  rounded-xl p-8 bg-slate-100 shadow-xl">
+                <h1 class="text-4xl font-semibold text-center">Ciyeeee</h1>
+            </div>
+        </div>
+        <div class="section bg-gradient-to-b from-pink-200 to-pink-700">
+            <div class="border-2 border-slate-900 mx-10 md:mx-auto md:max-w-md  rounded-xl p-8 bg-slate-100 shadow-xl">
+                <h1 class="text-4xl font-semibold text-center">Yang hari ini ulang tahun</h1>
+            </div>
+        </div>
+        <div class="section bg-gradient-to-b from-pink-200 to-pink-700">
+            <div class="border-2 border-slate-900 mx-10 md:mx-auto md:max-w-md  rounded-xl p-8 bg-slate-100 shadow-xl">
+                <h1 class="text-4xl font-semibold text-center">Semoga panjang umur</h1>
+            </div>
+        </div>
+        <div class="section bg-gradient-to-b from-pink-200 to-pink-700">
+            <div class="border-2 border-slate-900 mx-10 md:mx-auto md:max-w-md  rounded-xl p-8 bg-slate-100 shadow-xl">
+                <h1 class="text-4xl font-semibold text-center">Sehat selalu</h1>
+            </div>
+        </div>
+        <div class="section bg-gradient-to-b from-pink-200 to-pink-700">
+            <div class="border-2 border-slate-900 mx-10 md:mx-auto md:max-w-md  rounded-xl p-8 bg-slate-100 shadow-xl">
+                <h1 class="text-4xl font-semibold text-center">Sukses untuk kedepannya</h1>
+            </div>
+        </div>
+        <div class="section bg-gradient-to-b from-pink-200 to-pink-700">
+            <div class="border-2 border-slate-900 mx-10 md:mx-auto md:max-w-md  rounded-xl p-8 bg-slate-100 shadow-xl">
+                <h1 class="text-4xl font-semibold text-center">Semua yang diimpikan tercapai</h1>
+            </div>
+        </div>
+        <div class="section bg-gradient-to-b from-pink-200 to-pink-700">
+            <div class="border-2 border-slate-900 mx-10 md:mx-auto md:max-w-md  rounded-xl p-8 bg-slate-100 shadow-xl">
+                <h1 class="text-4xl font-semibold text-center">Harus lebih baik dari tahun sebelumnya</h1>
+            </div>
+        </div>
+        <div class="section bg-gradient-to-b from-pink-200 to-pink-700">
+            <div
+                class="text-center border-2 border-slate-900 mx-10 md:mx-auto md:max-w-md  rounded-xl p-8 bg-slate-100 shadow-xl">
+                <div onclick="tanya()" class="text-4xl font-semibold cursor-pointer love">Coba kamu pencet love ❤
+                </div>
+            </div>
+            <div
+                class="absolute bottom-0 self-center animate-pulse p-2 rounded-tl-xl rounded-tr-xl mx-10 text-xs text-white font-bold text-center bg-indigo-700">
+                <a href="https://www.github.com/ysrndev" target="_blank">Create by YSRN</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.js"
+        integrity="sha512-JSVRnP8UFs0ieN/cvP9v4vmW1CotIaEKKN7W+4JaKNrllZolTv2aJfVGn4BFdfZ1jRZxgTAAaXWdlZbEm9iwFA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        new fullpage('#fullpage', {
+            autoscrolling: true,
+            navigation: true,
+            scrollHorizontally: true,
+            anchors: ['section1', 'section2', 'section3'],
+            keyboardScrolling: true,
+            animateAnchor: true,
+            recordHistory: true,
+            lazyLoading: true,
+            scrollingSpeed: 2000,
+        })
+    </script>
+    <script>
+        var musik = "";
+    </script>
+    <script>
+        var audio = document.querySelector(".audio");
+        if (musik) {
+            audio.src = musik;
+        }
+
+        // function mulai() {
+        //     audio.play();
+        //     document.querySelector(".open").style = "opacity: 0;";
+        //     document.querySelector(".body").style = "overflow-y: scroll;";
+        //     setTimeout(function () {
+        //         document.querySelector(".open").style.display = "none";
+        //         document.querySelector("#fullpage").style.display = "block";
+        //         render();
+        //     }, 500);
+        // }
+
+        function wa(isi) {
+            window.open(
+                "https://wa.me/+6285717885904?text=Maaciw%20ya%20udah%20inget%20dan%20hari%20ini%20pengen%20banget" +
+                " " +
+                isi);
+        }
+        async function tanya() {
+            var {
+                value: kado
+            } = await swal.fire({
+                title: "Di hari spesial ini kamu pengen nya apa?",
+                input: "text",
+                showCancelButton: false,
+            });
+            if (kado) {
+                await swal.fire("Kirim jawabannya ke wa aku ya");
+                wa(kado);
+            } else {
+                await swal.fire("Jangan dikosongin dong");
+                tanya();
+            }
+        }
+    </script>
+
+</body>
+
+</html>
